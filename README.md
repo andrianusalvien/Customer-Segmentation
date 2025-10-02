@@ -30,3 +30,7 @@ Dengan dashboard ini, kita bisa mengetahui:
 Dataset yang digunakan: [Superstore Dataset](https://raw.githubusercontent.com/andrianusalvien/Customer-Satisfaction-and-Sentiment-Analysis/refs/heads/main/superstore_dataset%20-%20segmentation%20-%20superstore.csv)  
 Berisi data transaksi penjualan dengan kolom seperti:
 - `order_id`, `order_date`, `customer_id`, `state`, `sales`, `profit`, dll.
+
+
+## Link Dashboard
+>>>>> https://customersegmentation8.streamlit.app/
