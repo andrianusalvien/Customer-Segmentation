@@ -33,4 +33,6 @@ Berisi data transaksi penjualan dengan kolom seperti:
 
 
 ## Link Dashboard
->>>>> https://customersegmentation8.streamlit.app/ 
+>>>>> https://customersegmentation8.streamlit.app/
+>>>>> 
+<img width="1355" height="644" alt="Cuplikan layar 2025-10-02 122948" src="https://github.com/user-attachments/assets/ba743b71-0730-4f06-aaaf-4ebc4068d8df" />
