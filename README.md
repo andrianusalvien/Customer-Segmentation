@@ -1,19 +1,32 @@
-# 🎈 Blank app template
+# 📊 Customer Segmentation Dashboard (RFM Analysis)
 
-A simple Streamlit app template for you to modify!
+Dashboard interaktif berbasis **Streamlit** untuk melakukan **Customer Segmentation** menggunakan metode **RFM (Recency, Frequency, Monetary)** pada dataset Superstore.  
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+Dengan dashboard ini, kita bisa mengetahui:
+- Segmentasi pelanggan seperti **Champion, At Risk, Potential Loyalist, Loyal Customer**, dll.
+- Distribusi pelanggan per segmen
+- Profit per segmen
+- Persebaran pelanggan per waktu
+- Distribusi sales per kategori
+- Filter berdasarkan **waktu** dan **state**
 
-### How to run it on your own machine
+---
 
-1. Install the requirements
+## 🚀 Fitur Utama
+- **Summary Info**: Total Customers & Total Profit
+- **Filter Waktu**: Pilih range tanggal order
+- **Filter State**: Lihat distribusi pelanggan per state
+- **Filter Segmentasi**: Tampilkan hanya segmen tertentu
+- **Visualisasi**:
+  - Pie chart distribusi segmen
+  - Profit by Segment
+  - Distribusi kategori produk
+  - Customer over time (line chart)
+- **Tabel RFM**: Detail customer dengan nilai Recency, Frequency, Monetary, Profit, dan Segmen
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+---
 
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## 📂 Dataset
+Dataset yang digunakan: [Superstore Dataset](https://raw.githubusercontent.com/andrianusalvien/Customer-Satisfaction-and-Sentiment-Analysis/refs/heads/main/superstore_dataset%20-%20segmentation%20-%20superstore.csv)  
+Berisi data transaksi penjualan dengan kolom seperti:
+- `order_id`, `order_date`, `customer_id`, `state`, `sales`, `profit`, dll.
